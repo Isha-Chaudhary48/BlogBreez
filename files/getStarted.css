@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+
+}
+.backgroundImage{
+    height: 100vh;
+    width: 99vw;
+    background-image: url("../images/blog3Pic.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1{
+    font-size: 50px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+}
+.contain{
+    width: 1000px;
+    display: flexbox;
+}
+
+#title{
+    height: 30px;
+    width: 85%;
+    padding: 20px;
+   margin-bottom: 30px;
+   font-size: 30px;
+   color:rgb(152, 31, 9);
+border-radius: 5px;}
+   
+#content{
+    height: 100%;
+    width: 85%;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 5px;
+    
+}
+#submit{
+    
+    height: 40px;
+    width: 70px;
+   
+    
+    border-radius: 5px;
+    display: inline;
+    margin-top:30px;
+}
+
+
