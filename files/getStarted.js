@@ -1,12 +1,6 @@
 let contain = document.querySelectorAll(".contain");
 let title = document.getElementById("title");
 let content = document.getElementById("content");
-let b={
-    
-}
-let a=[
-
-]
 
 
 
@@ -16,7 +10,6 @@ let Add = () => {
     } 
     else{
         let addNewUl=document.querySelector(".addNewUl");
-    
     
         let addContent=document.createElement("ul");
         addContent.classList.add("addul");
@@ -32,10 +25,19 @@ let Add = () => {
            let contentValue=document.createElement("li");
            contentValue.classList.add("contentValueAdd");
            contentValue.textContent=content.value;
+
+//for deleting the content
+           let deleteButton = document.createElement("button")
+           deleteButton.id = "delete"
+           deleteButton.textContent = "delete"
+           deleteButton.addEventListener("click",()=>{
+            addContent.remove();
+           });
         
         addContent.style.backgroundColor="white";
         addContent.appendChild(titleValue);
         addContent.appendChild(contentValue);
+        addContent.appendChild(deleteButton);
         addNewUl.appendChild(addContent);
         
         title.value=""
