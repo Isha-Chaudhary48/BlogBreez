@@ -37,7 +37,7 @@ h1{
    
    margin-bottom: 30px;
    font-size: 30px;
-   color:rgb(152, 31, 9);
+   color:rgb(35, 34, 34);
 border-radius: 5px;}
    
 #content{
@@ -56,7 +56,8 @@ border-radius: 5px;}
     border-radius: 5px;
     display: inline;
     margin-top:30px;
-    background-color: red;
+    background-color: black;
+    color: white;
     font-size: 17px;
 }
 
@@ -91,7 +92,8 @@ border-radius: 5px;}
     border-radius: 5px;
     display: inline;
     margin-top:30px;
-    background-color: red;
+    background-color:black;
+    color: white;
     font-size: 20px;
     
 }
